@@ -1,0 +1,52 @@
+/* src/styles/contact.css */
+
+/* Section Styling */
+#contact {
+  background-color: #f3f4f6;
+  padding: 80px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Section Heading */
+#contact h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+/* Contact Description */
+.contact-description {
+  font-size: 18px;
+  color: #6b7280;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+/* Contact Button */
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  margin: 0 auto; /* ✅ Centering */
+}
+
+
+/* Button Hover Effect */
+.contact-button:hover {
+  background-color: #1e40af;
+}
+
+/* Mail Icon */
+.contact-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}

@@ -1,0 +1,42 @@
+/* src/styles/about.css */
+
+#about {
+    text-align: center;
+    padding: 100px 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Section Heading */
+#about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+/* Section Description */
+#about p {
+    font-size: 18px;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* 🔹 Mobile-Friendly Styles */
+@media (max-width: 768px) {
+    #about {
+        padding: 80px 15px;
+        max-width: 100%;
+    }
+
+    #about h2 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+}
